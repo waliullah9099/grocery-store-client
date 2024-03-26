@@ -1,112 +1,134 @@
 [
     {
         "title": "Wild-Caught Alaskan Sockeye Salmon Fillet",
-        "previous_price": 12.99,
-        "new_price": 10.99,
-        "rating": 4.7,
+        "description": "Our wild-caught Alaskan sockeye salmon fillet is a true delicacy. Harvested from pristine Alaskan waters, these vibrant red fillets are packed with flavor and nutrients. Their firm texture makes them ideal for grilling.",
+        "previous_price": 212.99,
+        "new_price": 170.99,
+        "discount": 23,
+        "rating": 4.8,
         "image": "https://i.ibb.co/rmYgZqV/pexels-photo-3133396.webp",
         "Deliver_days": 2,
-        "Delivery_cost_inside": 0,
-        "Delivery_cost_outside": 3.99
+        "Delivery_cost_inside": 20,
+        "Delivery_cost_outside": 33.99
     },
     {
         "title": "Yellowfin Tuna Steak - Sushi-Grade Fresh Tuna",
+        "description": "Dive into the world of exquisite flavors with our sushi-grade yellowfin tuna steak. Sourced from the deep blue waters of the Pacific, this steak boasts a buttery texture and a mild, clean taste. Whether you’re a seasoned sushi enthusiast or a home cook looking to impress.",
         "previous_price": 9.99,
         "new_price": 8.49,
-        "rating": 4.5,
+        "discount": 3,
+        "rating": 4.9,
         "image": "https://i.ibb.co/whLJg5k/photo-1522069169874-c58ec4b76be5.jpg",
         "Deliver_days": 3,
-        "Delivery_cost_inside": 1.99,
-        "Delivery_cost_outside": 4.99
+        "Delivery_cost_inside": 21.99,
+        "Delivery_cost_outside": 24.99
     },
     {
         "title": "Premium Portuguese Sardines in Extra Virgin Olive Oil",
-        "previous_price": 6.49,
-        "new_price": 5.29,
-        "rating": 4.2,
+        "description": "Indulge in the Mediterranean tradition with our premium Portuguese sardines. These tender fillets are hand-packed in extra virgin olive oil, infusing them with a rich, fruity flavor. With their silver skin and delicate bones, these sardines are a true culinary gem.",
+        "previous_price": 76.49,
+        "new_price": 65.29,
+        "discount": 9,
+        "rating": 4.5,
         "image": "https://i.ibb.co/Y8X09sF/photo-1535443120147-89aef0b5327a.jpg",
         "Deliver_days": 4,
-        "Delivery_cost_inside": 2.49,
-        "Delivery_cost_outside": 5.99
+        "Delivery_cost_inside": 22.49,
+        "Delivery_cost_outside": 35.99
     },
     {
         "title": "Atlantic Cod Fillet - Mild and Flaky White Fish",
-        "previous_price": 8.99,
-        "new_price": 7.49,
-        "rating": 4.3,
+        "description": "Our Atlantic cod fillet is a classic choice for seafood lovers. With its snowy-white flesh and mild flavor, it’s perfect for those seeking a light and flaky fish. Bake it with lemon and herbs, create a comforting fish chowder, or pan-fry it for a crispy crust.",
+        "previous_price": 98.99,
+        "new_price": 87.49,
+        "discount": 11,
+        "rating": 4.9,
         "image": "https://i.ibb.co/GChjYZW/premium-photo-1684943834572-aefa4307e5a8.jpg",
         "Deliver_days": 3,
-        "Delivery_cost_inside": 1.99,
-        "Delivery_cost_outside": 4.99
+        "Delivery_cost_inside": 32,
+        "Delivery_cost_outside": 45
     },
     {
         "title": "Rainbow Trout - Freshwater Delicacy",
+        "description": "Discover the allure of freshwater cuisine with our rainbow trout. Raised in pristine lakes and streams, these trout boast a delicate, nutty flavor. Their skin is speckled with iridescent hues, reminiscent of a rainbow.",
         "previous_price": 11.49,
         "new_price": 9.99,
-        "rating": 4.6,
+        "discount": 4,
+        "rating": 5,
         "image": "https://i.ibb.co/ZNFPK3K/istockphoto-1338749711-612x612.jpg",
         "Deliver_days": 2,
-        "Delivery_cost_inside": 0,
-        "Delivery_cost_outside": 3.99
+        "Delivery_cost_inside": 10,
+        "Delivery_cost_outside": 13
     },
     {
         "title": "Smoked Mackerel - Rich and Flavorful",
-        "previous_price": 7.99,
-        "new_price": 6.49,
+        "description": "Our Atlantic cod fillet is a classic choice for seafood lovers. With its snowy-white flesh and mild flavor, it’s perfect for those seeking a light and flaky fish. Bake it with lemon and herbs, create a comforting fish chowder, or pan-fry it for a crispy crust.",
+        "previous_price": 75.99,
+        "new_price": 66.49,
+        "discount": 11,
         "rating": 4.1,
         "image": "https://i.ibb.co/4K1Jpkk/istockphoto-165637260-612x612.jpg",
         "Deliver_days": 4,
-        "Delivery_cost_inside": 2.49,
-        "Delivery_cost_outside": 5.99
+        "Delivery_cost_inside": 32,
+        "Delivery_cost_outside": 45
     },
     {
         "title": "Pacific Halibut Steak - Meaty and Versatile",
+        "description": "Indulge in the Mediterranean tradition with our premium Portuguese sardines. These tender fillets are hand-packed in extra virgin olive oil, infusing them with a rich, fruity flavor. With their silver skin and delicate bones, these sardines are a true culinary gem. ",
         "previous_price": 14.99,
         "new_price": 12.49,
+        "discount": 7,
         "rating": 4.8,
         "image": "https://i.ibb.co/PY3jm8Y/istockphoto-1650058873-612x612.jpg",
         "Deliver_days": 2,
-        "Delivery_cost_inside": 0,
-        "Delivery_cost_outside": 3.99
+        "Delivery_cost_inside": 12,
+        "Delivery_cost_outside": 20
     },
     {
         "title": "Fresh Swordfish Loin - Perfect for Grilling",
-        "previous_price": 16.99,
-        "new_price": 14.49,
-        "rating": 4.9,
+        "description": "Dive into the world of exquisite flavors with our sushi-grade yellowfin tuna steak. Sourced from the deep blue waters of the Pacific, this steak boasts a buttery texture and a mild, clean taste. Whether you’re a seasoned sushi enthusiast or a home cook looking to impress.",
+        "previous_price": 116.99,
+        "new_price": 94.49,
+        "discount": 21,
+        "rating": 5,
         "image": "https://i.ibb.co/yVrk1Xf/pexels-photo-2792153.jpg",
         "Deliver_days": 3,
-        "Delivery_cost_inside": 1.99,
-        "Delivery_cost_outside": 4.99
+        "Delivery_cost_inside": 20,
+        "Delivery_cost_outside": 28
     },
     {
         "title": "Black Sea Bass - Delicate White Fish",
-        "previous_price": 10.49,
-        "new_price": 8.99,
+        "description": "Our wild-caught Alaskan sockeye salmon fillet is a true delicacy. Harvested from pristine Alaskan waters, these vibrant red fillets are packed with flavor and nutrients. Their firm texture makes them ideal for grilling.",
+        "previous_price": 110.49,
+        "new_price": 85.99,
+        "discount": 17,
         "rating": 4.4,
         "image": "https://i.ibb.co/P4H6Yc4/perch-cichlid-discus-cichlid-freshwater-fish-78790.jpg",
         "Deliver_days": 3,
-        "Delivery_cost_inside": 1.99,
-        "Delivery_cost_outside": 4.99
+        "Delivery_cost_inside": 25,
+        "Delivery_cost_outside": 43
     },
     {
         "title": "Fresh Red Snapper Fillet - Vibrant and Flavorful",
+        "description": "Indulge in the Mediterranean tradition with our premium Portuguese sardines. These tender fillets are hand-packed in extra virgin olive oil, infusing them with a rich, fruity flavor. With their silver skin and delicate bones, these sardines are a true culinary gem. ",
         "previous_price": 13.49,
         "new_price": 11.99,
+        "discount": 2,
         "rating": 4.7,
         "image": "https://i.ibb.co/rmYgZqV/pexels-photo-3133396.webp",
         "Deliver_days": 2,
-        "Delivery_cost_inside": 0,
-        "Delivery_cost_outside": 3.99
+        "Delivery_cost_inside": 30,
+        "Delivery_cost_outside": 50
     },
     {
         "title": "Arctic Char - Sustainable Cold-Water Fish",
-        "previous_price": 9.49,
-        "new_price": 7.99,
+        "description": "Dive into the world of exquisite flavors with our sushi-grade yellowfin tuna steak. Sourced from the deep blue waters of the Pacific, this steak boasts a buttery texture and a mild, clean taste. Whether you’re a seasoned sushi enthusiast or a home cook looking to impress",
+        "previous_price": 145,
+        "new_price": 121,
+        "discount": 13,
         "rating": 4.3,
         "image": "https://i.ibb.co/DPJK4WN/pexels-photo-11348768.webp",
         "Deliver_days": 2,
-        "Delivery_cost_inside": 0,
-        "Delivery_cost_outside": 3.99
+        "Delivery_cost_inside": 30,
+        "Delivery_cost_outside": 50
     }
 ]
