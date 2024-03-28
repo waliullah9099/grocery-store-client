@@ -8,19 +8,19 @@ const Navbar = () => {
       <Link href="/">Home</Link>
     </li>,
     <li key="item2">
-      <Link href="about">Categories</Link>
+      <Link href="/category">Categories</Link>
     </li>,
     <li key="item2">
       <Link href="/products">Products</Link>
     </li>,
     <li key="item2">
-      <Link href="/products">Flash Sale</Link>
+      <Link href="/flash-sale">Flash Sale</Link>
     </li>,
     <li key="item2">
-      <Link href="/products">About Us</Link>
+      <Link href="/">About Us</Link>
     </li>,
     <li key="item2">
-      <Link href="/products">Contact Us</Link>
+      <Link href="/">Contact Us</Link>
     </li>,
   ];
   return (
@@ -63,7 +63,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href={"/dashboard"}>Dashboard</Link>
+        <Link
+          className="btn px-10 btn-active border-main bg-main hover:bg-transparent hover:shadow-md transition-all mr-3 hover:scale-105"
+          href={"/dashboard"}
+        >
+          Dashboard
+        </Link>
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
-import TrendingProducts from "@/pages/Home/Trending Products/TrendingProducts";
-import Category from "@/pages/Home/category/Category";
 import FlashSale from "@/pages/Home/flashSale/FlashSale";
 import Hero from "@/pages/Home/hero/Hero";
+import Category from "../Category";
+import TrendingProducts from "../TrendingProducts";
 
 const page = async () => {
   const res = await fetch("http://localhost:5000/api/v1/products", {
-    method: "GET",
+    cache: "no-store",
   });
   const products = await res.json();
   return (

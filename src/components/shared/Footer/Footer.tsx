@@ -80,16 +80,19 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title">Quick Links</h6>
           <Link href="/products" className="link link-hover">
-            Products
+            Trending Products
           </Link>
           <Link href="/" className="link link-hover">
-            Flash Sale
+            Categories
+          </Link>
+          <Link href="/" className="link link-hover">
+            About Us
           </Link>
           <Link href="/" className="link link-hover">
             Contact Us
           </Link>
           <Link href="/" className="link link-hover">
-            Testimonials
+            Customer Care
           </Link>
         </nav>
         <nav className="text-center">

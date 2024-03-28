@@ -1,5 +1,4 @@
-"use client";
-import ProductCard from "@/components/shared/ui/ProductCard";
+import ProductCard from "@/components/ui/ProductCard";
 import { TProducts } from "@/types";
 import Link from "next/link";
 

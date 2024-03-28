@@ -1,5 +1,5 @@
 "use client";
-import ProductCard from "@/components/shared/ui/ProductCard";
+import ProductCard from "@/components/ui/ProductCard";
 import { TProducts } from "@/types";
 import Link from "next/link";
 
@@ -8,7 +8,7 @@ const FlashSale = ({ flashSales }: { flashSales: TProducts[] }) => {
     <div className="max-w-[1230px] mx-auto my-16">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-semibold">Flash Sale</h1>
-        <Link href="/products">
+        <Link href="/flash-sale">
           <button className="btn px-8 btn-active border-main bg-main hover:bg-transparent hover:shadow-md transition-all hover:scale-105">
             View All
           </button>

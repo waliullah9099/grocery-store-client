@@ -33,6 +33,7 @@ const AllProduct = async () => {
                 <th>Title</th>
                 <th>Category</th>
                 <th>Price</th>
+                <th>Discount</th>
               </tr>
             </thead>
             <tbody>
@@ -51,6 +52,9 @@ const AllProduct = async () => {
                   <td className="text-lg">{product?.title}</td>
                   <td className="text-lg font-medium">{product?.category}</td>
                   <td className="text-lg font-medium">${product?.new_price}</td>
+                  <td className="text-lg font-medium text-main">
+                    {product?.discount}%
+                  </td>
                 </tr>
               ))}
             </tbody>
