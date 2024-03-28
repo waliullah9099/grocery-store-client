@@ -3,9 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const AllProduct = async () => {
-  const res = await fetch("http://localhost:5000/api/v1/products", {
-    method: "GET",
-  });
+  const res = await fetch(
+    "https://grocery-store-backend-lake.vercel.app/api/v1/products",
+    {
+      method: "GET",
+    }
+  );
   const products = await res.json();
   console.log(products);
   return (

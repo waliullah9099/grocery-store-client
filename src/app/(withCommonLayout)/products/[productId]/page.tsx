@@ -9,7 +9,7 @@ interface TProducts {
 
 const page = async ({ params }: TProducts) => {
   const res = await fetch(
-    `http://localhost:5000/api/v1/products/${params?.productId}`,
+    `https://grocery-store-backend-lake.vercel.app/api/v1/products/${params?.productId}`,
     {
       method: "GET",
     }
