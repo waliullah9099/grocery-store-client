@@ -1,6 +1,7 @@
 export type TProducts = {
   _id: string;
   title: string;
+  category: string;
   description: string;
   previous_price?: number;
   new_price: number;

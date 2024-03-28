@@ -24,9 +24,6 @@ const ProductCard = ({ product }: { product: TProducts }) => {
         </figure>
         <div className="card-body pb-4">
           <h2 className="card-title">{product?.title}</h2>
-          {/* <p>{product?.description.length > 125
-                ? product?.description.slice(0, 125) + "  •••"
-                : product?.description}</p> */}
           <div className="card-actions justify-between items-center mt-4">
             <div>
               <p className="text-lg">

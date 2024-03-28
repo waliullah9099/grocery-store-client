@@ -16,11 +16,14 @@ const AllProduct = async () => {
         </h1>
       </Link>
       <div className=" flex gap-6">
-        <div className="shadow-2xl h-screen bg-base-300 flex-[1] sticky top-0 left-0">
+        <Link
+          href={"/products"}
+          className="shadow-2xl h-screen bg-base-300 flex-[1] sticky top-0 left-0"
+        >
           <h2 className="p-2 px-4 mt-4 text-lg font-semibold bg-[#999]">
             All Product
           </h2>
-        </div>
+        </Link>
         <div className="overflow-x-auto flex-[6] border-2 rounded border-dashed border-base-300 p-4 m-4">
           <table className="table table-zebra">
             <thead>
@@ -28,6 +31,7 @@ const AllProduct = async () => {
                 <th>Serial</th>
                 <th>Image</th>
                 <th>Title</th>
+                <th>Category</th>
                 <th>Price</th>
               </tr>
             </thead>
@@ -44,7 +48,8 @@ const AllProduct = async () => {
                       className="h-14 w-20 rounded "
                     />
                   </td>
-                  <td className="text-lg font-medium">{product?.title}</td>
+                  <td className="text-lg">{product?.title}</td>
+                  <td className="text-lg font-medium">{product?.category}</td>
                   <td className="text-lg font-medium">${product?.new_price}</td>
                 </tr>
               ))}

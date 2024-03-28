@@ -1,3 +1,4 @@
+"use client";
 import ProductCard from "@/components/shared/ui/ProductCard";
 import { TProducts } from "@/types";
 

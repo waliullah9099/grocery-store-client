@@ -16,7 +16,7 @@ const page = async ({ params }: TProducts) => {
   );
 
   const product = await res.json();
-  console.log(product);
+  // console.log(product);
 
   return (
     <div className="max-w-[1230px] mx-auto my-12">
@@ -30,7 +30,7 @@ const page = async ({ params }: TProducts) => {
         />
         <div className="p-5 flex-[3]">
           <h1 className="text-2xl font-semibold"> {product.title}</h1>
-          <div className="flex gap-6 text-2xl mt-3 items-center border-b-2 border-base-300 border-dashed pb-5 w-3/4">
+          <div className="flex gap-6 text-2xl mt-3 items-center border-b-2 border-base-300 border-dashed pb-5 ">
             <p className="border-r-2 border-base-300 border-dashed pr-4">
               Price: ${product.new_price}
               <sup className="text-main">
@@ -41,7 +41,7 @@ const page = async ({ params }: TProducts) => {
             <p className="border-r-2 border-base-300 border-dashed pr-4">
               Rating: {product.rating}
             </p>
-            <p>🤍</p>
+            <p>Category: {product.category}</p>
           </div>
           <p className="my-6 pr-6">{product.description}</p>
           <div className="flex items-center gap-2">
