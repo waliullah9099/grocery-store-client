@@ -4,7 +4,7 @@ import CopyRight from "./CopyRight";
 const Footer = () => {
   return (
     <>
-      <footer className="footer p-10 bg-base-200 text-base-content gap-4">
+      <footer className="footer p-10 bg-base-200 max-w-[1230px] mx-auto text-base-content gap-4">
         <div>
           <Link href="/">
             <h1 className="font-semibold text-2xl ">

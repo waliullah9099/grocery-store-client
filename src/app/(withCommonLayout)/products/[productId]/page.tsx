@@ -1,5 +1,7 @@
+import { addCart } from "@/redux/cart/actions";
 import Image from "next/image";
 import { MdOutlineLocalShipping, MdDeliveryDining } from "react-icons/md";
+import { useDispatch } from "react-redux";
 
 interface TProducts {
   params: {
@@ -9,14 +11,16 @@ interface TProducts {
 
 const page = async ({ params }: TProducts) => {
   const res = await fetch(
-    `https://grocery-store-backend-lake.vercel.app/api/v1/products/${params?.productId}`,
+    `http://localhost:5000/api/v1/products/${params?.productId}`,
     {
       method: "GET",
     }
   );
 
   const product = await res.json();
-  // console.log(product);
+  // const handleAddToCard = (product) => {
+  //   dispatch(addCart(product));
+  // };
 
   return (
     <div className="max-w-[1230px] mx-auto my-12">
@@ -68,6 +72,12 @@ const page = async ({ params }: TProducts) => {
               <span className="text-sm text-main"> Shipping & Return</span>
             </p>
           </div>
+          <button
+            onClick={() => {}}
+            className=" px-4 py-[6px] bg-main border text-[#fff] hover:bg-pure hover:text-main transition-all duration-300 delay-100 rounded"
+          >
+            Add To Cart
+          </button>
         </div>
       </div>
     </div>

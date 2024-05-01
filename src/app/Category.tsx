@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Category = async () => {
   return (
-    <div className="max-w-[1230px] mx-auto my-12">
+    <div className="max-w-[1230px] px-2 mx-auto my-12">
       <div className="my-8">
         <h1 className="text-3xl font-semibold my-5 text-center">
           Top <span className="text-main"> Categories</span>
@@ -17,7 +17,7 @@ const Category = async () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div className="relative group">
-          <Link href={"/category"}>
+          <Link href={"/product/predatory"}>
             <Image
               src={
                 "https://i.ibb.co/dfXNMkV/photo-1540996772485-94e7e92bc1f0.jpg"
@@ -34,7 +34,7 @@ const Category = async () => {
         </div>
         <div className="space-y-5">
           <div className="relative group">
-            <Link href={"/category"}>
+            <Link href={"/product/freshwater"}>
               <Image
                 src={"https://i.ibb.co/yVrk1Xf/pexels-photo-2792153.jpg"}
                 className="rounded hover:scale-95 transition-all h-[265px]"
@@ -42,13 +42,13 @@ const Category = async () => {
                 width={500}
                 alt="category iamge"
               />{" "}
-              <h2 className="text-pure text-xl font-medium absolute bottom-3 left-3 group-hover:text-3xl group-hover:font-semibold group-hover:drop-shadow transition-all group-hover:bottom-8 group-hover:left-8">
+              <h2 className="text-pure text-xl font-medium absolute bottom-3 left-3 group-hover:text-3xl group-hover:font-semibold group-hover:drop-shadow transition-all duration-500 group-hover:bottom-8 group-hover:left-8">
                 Freshwater Fish
               </h2>
             </Link>
           </div>
           <div className="relative group">
-            <Link href={"/category"}>
+            <Link href={"/product/saltwater"}>
               <Image
                 src={
                   "https://i.ibb.co/QJkYV48/istockphoto-1458602861-1024x1024.jpg"
@@ -65,7 +65,7 @@ const Category = async () => {
           </div>
         </div>
         <div className="relative group">
-          <Link href={"/category"}>
+          <Link href={"/product/colorful"}>
             <Image
               src={"https://i.ibb.co/GHWF8dv/pexels-photo-3133396.webp"}
               className="rounded hover:scale-95 transition-all h-[550px]"
